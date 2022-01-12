@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKAN NAMING</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>AKAN NAMING STYLE</h1>
+    <p>The webpage is all about having an interactive session with the Ghanian culture. <br>
+        Akan names are derived from Ghanian culture. Frequently in Ghana, children are named <br>
+        with their first name as a 'day name' which corresponds to the day in the week they were born. <br>
+        ENJOY.
+    </p>
+    <form>
+        <div>
+            <label for="name">Enter your name</label>
+            <input type="text" name="enter your name"id="name"> 
+        </div>
+        <div class="year">
+            <label for="year" >Year of Birth:</label>
+            <input type="number" name="year" id="year" required>
+          </div>
+          <div class="month">
+            <label for="month">Month of Birth:</label>
+            <input type="number" name="month" id="month" min="1" max="12">
+          </div>
+          <div class="date">
+            <label for="date">Date of Birth:</label>
+            <input type="number" name="date" id="date" min="1" max="31">
+          </div>
+          <div class="gender">
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="gender">Female</label>
+          </div>
+          <div class="gender">
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="gender">Male</label>
+            <div>
+                <button onclick="mybutton(event)">submit</button>
+            </div>
+          </div>
+    </form>
+</body>
+</html>
