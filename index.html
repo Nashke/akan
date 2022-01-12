@@ -21,7 +21,7 @@
         </div>
         <div class="year">
             <label for="year" >Year of Birth:</label>
-            <input type="number" name="year" id="year" required>
+            <input type="number" name="year" id="year" required min="0">
           </div>
           <div class="month">
             <label for="month">Month of Birth:</label>
@@ -38,10 +38,11 @@
           <div class="gender">
             <input type="radio" name="gender" id="male" value="male">
             <label for="gender">Male</label>
-            <div>
+            <div class="button">
                 <button onclick="mybutton(event)">submit</button>
             </div>
           </div>
     </form>
+    <script src="main.js"></script>
 </body>
 </html>

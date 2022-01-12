@@ -28,3 +28,13 @@ form{
     margin-bottom: 1em;
     color: chartreuse;
 }
+.button{
+    color: red;
+    margin-bottom: 1em;
+    align-items: center;
+}
+.date{
+    align-items: center;
+    margin-bottom: 1em;
+    
+}
