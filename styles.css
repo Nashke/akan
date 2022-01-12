@@ -1,6 +1,7 @@
 body{
     background-image: url(image/ocean.jpeg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 h1{
     text-align: center;
@@ -19,4 +20,11 @@ form{
 .name{
     margin-bottom: 1em;
     color: burlywood;
+}
+.year{
+    margin-bottom: 1em;
+}
+.month{
+    margin-bottom: 1em;
+    color: chartreuse;
 }
