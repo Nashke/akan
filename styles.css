@@ -6,3 +6,17 @@ h1{
     text-align: center;
     color: aqua;
 }
+p{
+    align-items: center;
+    text-align: center;
+}
+form{
+    align-items: center;
+    text-align: center;
+    margin: 1em;
+    border: brown;
+}
+.name{
+    margin-bottom: 1em;
+    color: burlywood;
+}
