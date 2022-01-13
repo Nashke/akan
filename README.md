@@ -11,6 +11,7 @@ Some of the challenges faced included the Akan names not loading .
 
 # How to Install and Run the Project
 Kindly run the webpage on the git pages link provided below 
+https://nashke.github.io/akan/
 
 # License
 Copyright <2021> <MIT LICENSE>
