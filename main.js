@@ -9,21 +9,13 @@ function myButton(event) {
     console.log(month)
     var date = parseInt(document.getElementById('date').value)
     console.log(date)
-    var gender = document.querySelector('input[name = gender]:checked').value
+    var gender = document.querySelector('input[name = genderf]:checked').value
+    console.log(gender)
+    var gender = document.querySelector('input[name = genderm ]:checked').value
     console.log(gender)
   
-    var a = (~~(century/4))-2*century-1
-    console.log(a)
-    var b = ~~((5*year)/4)
-    console.log(b)
-    var c = ~~(26*(month+1)/10)
-    console.log(c)
-  
-    var dayOfTheWeek = (a+b+c+date)%7
-    console.log(dayOfTheWeek)
-  
-    let genderF =['Akosua','Adwoa','Abenaa','Akua','Yaa','Afua','Ama']
-    let genderM =['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame']
+    let akanGenderF =['Akosua','Adwoa','Abenaa','Akua','Yaa','Afua','Ama']
+    let akanGenderM =['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame']
   
     if(gender==='female' && dayOfTheWeek===0) {
       alert('Your Akan name is ' + akanFemaleName['0'])
@@ -55,7 +47,17 @@ function myButton(event) {
       alert('Your Akan name is ' + akanMaleName['5'])
     }if(gender==='male' && dayOfTheWeek===6) {
       alert('Your Akan name is ' + akanMaleName['6'])
-    }
+    
+    }function calculateDayValue(){
+        year = document.getElementById("year").value;
+        CC = parseInt(year.substring(0,2));
+        YY = parseInt(year.substring(2,4));
+        MM = parseInt(document.getElementById("month").value);
+        DD = parseInt(document.getElementById("date").value);
+        d = ( ( (CC/4) -2*CC-1) + ( (5*YY/4) ) + ((26*(MM+1)/10) ) + DD)%7;
+        console.log(d);
+        return (Math.floor(d));
+
 }
 
 
