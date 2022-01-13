@@ -17,6 +17,9 @@ form{
     margin: 1em;
     border: brown;
 }
+.century{
+    margin-bottom: 1em;
+}
 .name{
     margin-bottom: 1em;
     color: burlywood;

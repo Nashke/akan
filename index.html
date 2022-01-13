@@ -19,17 +19,22 @@
             <label for="name">Enter your name</label>
             <input type="text" name="enter your name"id="name"> 
         </div>
-        <div class="year">
-            <label for="year" >Year of Birth:</label>
-            <input type="number" name="year" id="year" required min="0">
+       
+          <div class="date">
+            <label for="date">Date of Birth:</label>
+            <input type="number" name="date" id="date" min="1" max="31">
           </div>
           <div class="month">
             <label for="month">Month of Birth:</label>
             <input type="number" name="month" id="month" min="1" max="12">
           </div>
-          <div class="date">
-            <label for="date">Date of Birth:</label>
-            <input type="number" name="date" id="date" min="1" max="31">
+          <div class="year">
+            <label for="year">Year of Birth:</label>
+            <input type="number" name="year" id="year">
+          </div>
+          <div class="century">
+            <label for="century">Century of Birth:</label>
+            <input type="number"  name= centry id="century">
           </div>
           <div class="gender">
             <input type="radio" name="gender" id="female" value="female">
